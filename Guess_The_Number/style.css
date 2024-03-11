@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:100%;
+    min-height:100vh;
+    background: linear-gradient(165deg,rgba(250, 254, 1, 0.800),rgba(255, 0, 0, 0.800));
+    padding: 5px;
+    
+}
+.naam{
+    background: linear-gradient(182deg, rgba(255, 255, 255, 0.83), rgb(203 141 141 / 83%));
+    width: 100%;
+    max-width: 500px;
+    margin:100px auto 20px;
+    padding: 40px 30px 70px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.naam h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numberle :first-child{
+    display: flex;
+    justify-content: space-around;
+    width: 230px;
+    margin-top: 40px;
+    margin-left: 119px;
+    height: 35px 
+}
+
+.submit{
+    display: flex;
+    width: 60px;
+    height: 30px;
+    align-items: flex-end;
+    margin-left: 200px;
+    margin-top: 8px 
+}
