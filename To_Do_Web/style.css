@@ -11,7 +11,7 @@
 
 }
 
-.interface{
+.face{
     width: 100%;
     width: 500px;
     background:rgb(255, 255, 255);
@@ -20,7 +20,7 @@
     border-radius: 10px;
 }
 
-.interface h2{
+.face h2{
     color:rgb(236, 154, 66);
     display:flex;
     align-items: center;
@@ -36,11 +36,24 @@
     border: 2px solid rgb(0, 0, 0);
 }
 
-.search button{
+button#addTaskBtn{
     background: linear-gradient(273deg,rgba(23, 54, 230, 0.969),rgba(61, 234, 211, 0.886));;
    color: rgb(255, 255, 255);
    padding: 14px 20px;
    cursor: pointer;
    border-radius: 0 10px 10px 0;
    border: 2px solid rgb(255, 255, 255);
+}
+#taskList{
+    list-style: none;
+}
+
+
+button.delete-btn{
+    cursor: pointer;
+    margin:0 20px 10px;
+    background-color: white;
+    color:red;
+    padding:10px;
+    
 }
