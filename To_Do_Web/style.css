@@ -3,26 +3,44 @@
     padding: 0;
    box-sizing: border-box;
 }
-.container{
+.bg{
     width:100%;
-    min-height: 100vh;
+    height:100vh;
     background: linear-gradient(135deg,rgba(23, 54, 230, 0.969),rgba(61, 234, 211, 0.886));
     padding: 10px;
 
 }
 
-.to-do-app{
+.interface{
     width: 100%;
-    max-width: 500px;
+    width: 500px;
     background:rgb(255, 255, 255);
     margin:100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
 
-.to-do-app h2{
+.interface h2{
     color:rgb(236, 154, 66);
     display:flex;
     align-items: center;
     justify-content: center;
+}
+
+.search input{
+    width: 70%;
+    padding: 10px;
+    margin: 20px auto 10px;
+    font-size: 16px;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.search button{
+    background: linear-gradient(273deg,rgba(23, 54, 230, 0.969),rgba(61, 234, 211, 0.886));;
+   color: rgb(255, 255, 255);
+   padding: 14px 20px;
+   cursor: pointer;
+   border-radius: 0 10px 10px 0;
+   border: 2px solid rgb(255, 255, 255);
 }
