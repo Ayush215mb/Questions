@@ -7,6 +7,7 @@ function addTask() {
     const taskText = taskInput.value.trim();
     if (taskText !== '') {
         const li = document.createElement('li');
+        li.classList.add('listItem');
         li.textContent = taskText;
         const deleteBtn = document.createElement('button');
         deleteBtn.textContent = 'Delete';
